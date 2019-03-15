@@ -1,0 +1,72 @@
+body {
+    font-family: 'AvenirLTPro-Light';
+    color: #000;
+    font-size: 21px;
+}
+body,
+html {
+    height: 100%;
+}
+a{
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    color: #d66f59;
+}
+a:hover,a:focus,a:active{
+    text-decoration: none;
+    outline: none;
+    color: #d66f59;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-family: 'AvenirLTPro-Black';
+}
+h2{
+    font-family: 'AvenirLTPro-Black';
+}
+h3{
+
+}
+h4, .h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+}
+h5, .h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+}
+section {
+    width: 100%;
+    padding: 65px 0;
+    position: relative;
+    clear: both;
+}
+div.middle {
+    display: table;
+    height: 100%;
+    z-index: 10;
+    position: relative;
+}
+div.middle > div {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+}
+div.middle > div.bottom {
+    vertical-align: bottom;
+}
